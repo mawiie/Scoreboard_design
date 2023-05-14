@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.scoreboard {
+    background-color: #1B244A;
+    width: 80vh;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.counter-txt {
+    font-family: 'Cursed Timer ULil', sans-serif;
+    color: red;
+    background: #080001;
+    border-radius: 5px;
+    margin: 0 20px;
+    padding-top: 15px;
+    font-size: 90px
+}
+
+.header-txt {
+    font-family: 'Jost', sans-serif;
+    color: white;
+}
+
+button {
+    background-color: transparent;
+    font-family: 'Cursed Timer ULil', sans-serif;
+    color: white;
+    border: 2px solid rgba(154, 171, 216, 1);
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px;
+    margin-top: 20px;   
+}
+
+.score-btn {
+    width: 155px;
+    
+}
+
+#new-game {
+    color: white;
+    font-family: 'Jost', sans-serif;
+    background-color: black;
+    text-shadow: 0 0 1px black;
+    font-weight: bold;
+    margin-bottom: 20px
+}
