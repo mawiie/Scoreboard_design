@@ -54,3 +54,11 @@ function wipe() {
     guestScore.innerText = guestCount
     homeScore.innerText = homeCount 
 }
+
+window.addhome1 = addhome1
+window.addhome2 = addhome2
+window.addhome3 = addhome3
+window.addguest1 = addguest1
+window.addguest2 = addguest2
+window.addguest3 = addguest3
+window.wipe = wipe
